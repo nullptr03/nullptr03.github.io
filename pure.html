@@ -1,15 +1,12 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
   <head>
     <title>Telegram Channel Subscribers</title>
-    <link rel="stylesheet" href="assets/vendor/purecounter/purecounter_vanilla.js" />
   </head>
   <body>
     <h1>Telegram Channel Subscribers</h1>
-      <span class="purecounter">1</span>
-      <p>Users</p>
+    <p id="subscribers-count"></p>
 
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script>
       const botToken = '6276949802:AAEuoKA2dcv4qC0dpLDIp_aztrGzb7kWPg8';
       const channelName = 'memeremoded';
@@ -20,15 +17,7 @@
         .then(response => response.json())
         .then(data => {
           const subscribersCount = data.result;
-          new PureCounter({
-          // Setting that can't' be overriden on pre-element
-          selector: ".purecounter", // HTML query selector for spesific element
-
-          // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
-          start: 0, // Starting number [uint]
-          end: subscribersCount, // End number [uint]
-          duration: 2, // The time in seconds for the animation to complete [seconds]
-          });
+          document.getElementById('subscribers-count').innerHTML = Total Subscribers: ${subscribersCount};
         })
         .catch(error => console.error(error));
     </script>
