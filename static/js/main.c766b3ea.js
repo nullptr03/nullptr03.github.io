@@ -9244,7 +9244,7 @@
                                 children: (0, X.jsxs)("div", {
                                     className: "bg-white h-100 shadow rounded",
                                     children: [(0, X.jsx)("img", {
-                                        src: "/static/media/team/team-1.png",
+                                        src: "../static/media/team/team-1.png",
                                         className: "card-img-top",
                                         alt: "Jefino"
                                     }), (0, X.jsxs)("div", {
@@ -9275,14 +9275,14 @@
                                 children: (0, X.jsxs)("div", {
                                     className: "bg-white h-100 shadow rounded",
                                     children: [(0, X.jsx)("img", {
-                                        src: "/static/media/team/team-2.png",
+                                        src: "../static/media/team/team-2.png",
                                         className: "card-img-top",
-                                        alt: "SHeeta"
+                                        alt: "Sheeta"
                                     }), (0, X.jsxs)("div", {
                                         className: "card-body text-center",
                                         children: [(0, X.jsx)("h5", {
                                             className: "fw-bold",
-                                            children: "\ud835\ude8a\ud835\ude95\ud835\ude8a\ud835\ude97\ud835\ude97\ud835\ude8d\ud835\udea3"
+                                            children: "NoobDEV"
                                         }), (0, X.jsx)("p", {
                                             className: "small text-muted text-truncate",
                                             children: "CO - Founder"
