@@ -7394,7 +7394,7 @@
         "use strict";
         var e = n(791),
             t = n(250);
-        var r, a = n.p + "static/media/ruilogo.png";
+        var r, a = n.p + "static/media/ruifavicon.png";
 
         function l(e, t) {
             (null == t || t > e.length) && (t = e.length);
